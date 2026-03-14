@@ -93,5 +93,20 @@ First Node Server:
 Node js Core modules: 
 	1) fs (file system): File operations like read/write files.
 	2) http: creates http server and makes http request
+	3) https: launch SSl server.
+	4) path: Provides utilities for handling and transforming file.
+	5) Path.os: Provides OS relateed utility methods and properties.
+	6) Events: handles events and even driven programing.
+	7) crypto: Provides cryptographic functionalities like hashing and encryption.
+	8) URl: parses and formats url strings.
+	etc.
+	
+Require Keyword: 
+	1) Purpose: Imports modules in node js
+	2) caching: modules are cached after first require call.
+	3)Path resolution: NodeJS searches fro the modules in core. node_modules and file paths.
 
+		Syntax: Const moduleName = require('module')
+			e.g.: const fs = require('fs');
+				  let http = require('http')
 		
