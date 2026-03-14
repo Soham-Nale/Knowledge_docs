@@ -1,0 +1,28 @@
+RxJS and RxJS in Angular: 
+
+What is RxJS: 
+		=> RxJS stands for Reactive Extension of Javascript.
+		=> A new way to handle asynchronous operation, events and data stream.
+		=> Heavly used in angular because angular's core features (like HttpClient, formControl.valueChanges, and routing) all uses observables under the hood.
+		
+Why RxJS in Angular: 
+		=> Working with HTTp: All HttpClient methods returns observables.
+		=> Form input tracking: valueChanges returns and observable.
+		=> Route parameters: ActivateRoute.paraMap is an observable.
+		=> state management: RxJS is foundation of libraries like NgRx.
+		
+Observable: 
+		=> Think of an observable like Netflix subscription or Prime subscription, you subscribe once and keep getting movies (data) over time.
+		=> Observable can emit multiple values overtime.
+		=> They can Complete, Error out, and keep streaming.
+		=> we to to subscribe, to start reciving values.
+		
+Creating and subscribing to observable: 
+		=> of, from, interval, timer, fromEvent
+		=> new Observable
+		
+interval in Rxjs : It garuntee u that it will be executing on the given time interval.
+setInterval in JS: It doenst garuntee you that it will execute after given interval (it may fail after 15-20 intervals/execution)
+
+RxJS operators: 
+	=> map, filter, take, take until, tap

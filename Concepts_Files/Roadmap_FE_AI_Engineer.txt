@@ -1,0 +1,15 @@
+⚡ Efficient Learning Order (Optimized for You)
+✅ First (Very Important)
+Angular State Management + Signals + RxJS mastery
+
+✅ Second
+LLM API basics + Prompt lifecycle
+
+✅ Third
+Build AI Chat App in Angular
+
+✅ Fourth
+Embeddings + semantic search
+
+✅ Fifth
+Structured responses + tool calling
